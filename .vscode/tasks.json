@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Debug con make",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"debug"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				// Este "matcher" es para GCC, pero funciona bien
+				// para interpretar los errores y advertencias de Clang en macOS.
+				"$gcc"
+			]
+		}
+	]
+}

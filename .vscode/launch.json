@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug notes (macOS)",
+      "type": "cppdbg", // Cambiado para el depurador genérico C/C++
+      "request": "launch",
+      // La ruta al ejecutable en macOS (¡sin la extensión .exe!)
+      "program": "${workspaceFolder}/build/Debug/bin/notes",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/Debug/bin",
+      "environment": [],
+      "externalConsole": true, // 'true' abre una terminal externa para tu app
+      "MIMode": "lldb", // ¡MUY IMPORTANTE! Usa el depurador LLDB de Apple
+      "preLaunchTask": "Build Debug con make"
+    }
+  ]
+}
