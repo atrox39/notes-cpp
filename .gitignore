@@ -1,0 +1,17 @@
+CMakeCache.txt
+CMakeFiles/
+Makefile
+bin/
+cmake_install.cmake
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+install_manifest.txt
+build/Debug/
+build/Release/
+build/g/Release/
+build/g/Debug/
+.vscode/c_cpp_properties.json
+.vscode/settings.json
